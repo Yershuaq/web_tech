@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychology & Self-Development - Articles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="mb-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Psychology & Self-Development</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="articles.html">Articles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Существующий раздел с видео -->
+        <section id="intro" class="text-center mb-5">
+            <h2>Videos on Psychology & Self-Development</h2>
+            <p class="fade-in-text">Discover videos that can transform the way you think about personal growth and emotional intelligence.</p>
+        </section>
+
+        <section id="latest-articles" class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">The Myth of Self Improvement</h3>
+                        <div class="ratio ratio-16x9 mb-3">
+                            <video controls>
+                                <source src="vid/theMythOfSelfImprovement.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">Understanding The Self: George Herbert Mead</h3>
+                        <div class="ratio ratio-16x9 mb-3">
+                            <video controls>
+                                <source src="vid/Understanding.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">8 Stages of Development by Erik Erikson</h3>
+                        <div class="ratio ratio-16x9 mb-3">
+                            <video controls>
+                                <source src="vid/stages.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Новый раздел для книг с модальными окнами -->
+        <section id="book-section" class="row mt-5">
+            <h2 class="text-center mb-5">Recommended Books</h2>
+
+            <!-- Книга 1 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 book-card" data-bs-toggle="modal" data-bs-target="#bookModal1">
+                    <div class="card-body">
+                        <h3 class="card-title">The 7 Habits of Highly Effective People</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Книга 2 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 book-card" data-bs-toggle="modal" data-bs-target="#bookModal2">
+                    <div class="card-body">
+                        <h3 class="card-title">Grit: The Power of Passion and Perseverance</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Книга 3 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 book-card" data-bs-toggle="modal" data-bs-target="#bookModal3">
+                    <div class="card-body">
+                        <h3 class="card-title">Emotional Intelligence</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Модальное окно для первой книги -->
+    <div class="modal fade" id="bookModal1" tabindex="-1" aria-labelledby="bookModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="bookModal1Label">The 7 Habits of Highly Effective People</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/7habits.jpg" class="img-fluid" alt="The 7 Habits of Highly Effective People">
+                        </div>
+                        <div class="col-md-8">
+                            <p><strong>Author:</strong> Stephen R. Covey</p>
+                            <p><strong>Published:</strong> August 15, 1989</p>
+                            <p><strong>Price:</strong> $15.99</p>
+                            <p>This book offers timeless principles on personal effectiveness and leadership. It teaches readers how to align their principles with universal truths and achieve long-lasting success.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модальное окно для второй книги -->
+    <div class="modal fade" id="bookModal2" tabindex="-1" aria-labelledby="bookModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="bookModal2Label">Grit: The Power of Passion and Perseverance</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/grit.jpg" class="img-fluid" alt="Grit: The Power of Passion and Perseverance">
+                        </div>
+                        <div class="col-md-8">
+                            <p><strong>Author:</strong> Angela Duckworth</p>
+                            <p><strong>Published:</strong> May 3, 2016</p>
+                            <p><strong>Price:</strong> $14.99</p>
+                            <p>Angela Duckworth explains how grit—a combination of passion and perseverance—is a key factor in long-term success. This book will inspire you to keep pushing forward no matter the obstacles.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модальное окно для третьей книги -->
+    <div class="modal fade" id="bookModal3" tabindex="-1" aria-labelledby="bookModal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="bookModal3Label">Emotional Intelligence</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/emotional-intelligence.jpg" class="img-fluid" alt="Emotional Intelligence">
+                        </div>
+                        <div class="col-md-8">
+                            <p><strong>Author:</strong> Daniel Goleman</p>
+                            <p><strong>Published:</strong> September 27, 1995</p>
+                            <p><strong>Price:</strong> $13.99</p>
+                            <p>Daniel Goleman's groundbreaking book explains the importance of emotional intelligence in relationships, work, and personal life. Learn how to develop and leverage your emotional intelligence for success.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white mt-5 p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <p>Psychology & Self-Development. Syzdykov Damir & Ershuaq Soltanbai.</p>
+                </div>
+                <div class="col-lg-6 col-md-6 text-lg-end">
+                    <p>&copy; All Videos taken from free sources.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        window.addEventListener('load', () => {
+            document.querySelector('.fade-in-text').classList.add('visible');
+        });
+    </script>
+
+</body>
+
+</html>
